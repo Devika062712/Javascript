@@ -133,3 +133,34 @@ console.log(typeof(weather));       //yha weather null h pr ye null ki jgh iske 
 
 //obj apna type obj bataega.. aur array b apna type obj hi bataega
 
+//jo b non premitive datatypes honge unka type object hi hoga
+
+//primitive datatype--> immutable...agr hm variable ko value reassign krte h toh uski value ni change hoti blki ko memory m khi aur point krna shuru krta h
+
+//non primitive datatypes mutable hote h
+let array = [10, 20, 30];
+array.push(40);     //exixting array m hi change krdia
+console.log(array);
+array[0] = 70;
+console.log(array);
+
+let object = {
+    name : "Devika",
+    age : 19
+};
+console.log(object.name);
+
+object.age = 20;
+console.log(object.age);
+
+
+let aa = 10;
+let bb = aa;
+
+bb = 20;
+console.log(aa, bb);        //10 20...kyuki aa 10 ko hi point krra h abi b pr b ab 20 ko point krra h a ko nhi
+
+
+//array
+
+

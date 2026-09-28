@@ -161,6 +161,6 @@ bb = 20;
 console.log(aa, bb);        //10 20...kyuki aa 10 ko hi point krra h abi b pr b ab 20 ko point krra h a ko nhi
 
 
-//array
+//
 
 
